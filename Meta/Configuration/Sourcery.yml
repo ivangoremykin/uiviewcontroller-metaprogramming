@@ -1,6 +1,8 @@
 sources:
     include:
         - ../../Source
+    exclude:
+        - ../../Source/Generated
 templates:
     - ../Templates/UIViewController/UIViewController+Create.swifttemplate
     - ../Templates/UIViewController/UIViewController+Present.swifttemplate
