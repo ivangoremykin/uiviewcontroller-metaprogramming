@@ -1,0 +1,57 @@
+<%- include("../../Common/Common") -%>
+
+<% // <#Test Method#>
+
+func generateTestMethod(_ enumCase: EnumCase) -> String
+{
+    return """
+func test\(enumCase.name.uppercasedFirstLetter())()
+{
+	XCTAssertNotNil(getPath(for: .\(enumCase.name)))
+}
+"""
+}
+
+-%>
+
+<% // <#Test Methods#>
+
+func generateTestMethods() -> String
+{
+    return types.enums
+              .first(where: { $0.name == "UIStoryboard.Name" })?
+              .cases
+              .map(generateTestMethod)
+              .map(tabulate(1))
+              .joined(separator: "\n\n") ?? ""
+}
+
+-%>
+
+<% // <#Output#>
+
+func generateOutput() -> String
+{
+    return """
+import XCTest
+@testable import \(projectName)
+
+class StoryboardNameTests: XCTestCase
+{
+    private func getPath(for storyboardName: UIStoryboard.Name) -> String?
+    {
+        return Bundle.main.path(forResource: storyboardName.fileName, ofType: "storyboardc")
+    }
+
+\(generateTestMethods())
+}
+"""
+}
+
+-%>
+
+// sourcery:file:../../Tests/Resources/StoryboardNameTests.swift
+
+<%= generateOutput() %>
+
+// sourcery:end

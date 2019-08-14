@@ -1,0 +1,13 @@
+sources:
+    include:
+        - ../../Source
+templates:
+    - ../Templates/UIViewController/UIViewController+Create.swifttemplate
+    - ../Templates/UIViewController/UIViewController+Present.swifttemplate
+    - ../Templates/UIViewController/UINavigationController+Push.swifttemplate
+    - ../Templates/Tests/Resources/Test+StoryboardName.swifttemplate
+    - ../Templates/Tests/Resources/Test+InstantiateUIViewController.swifttemplate
+output:
+    ../../Source/Generated
+args:
+    projectName: ${PROJECT_NAME}
