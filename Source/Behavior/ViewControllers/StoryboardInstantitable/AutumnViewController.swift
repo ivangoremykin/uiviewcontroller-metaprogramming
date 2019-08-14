@@ -20,8 +20,8 @@ class AutumnViewController: UIViewController
     fileprivate var leafAmount: LeafAmount!
 }
 
-// MARK:- StoryboardInstantitable
-extension AutumnViewController: StoryboardInstantitable
+// MARK:- StoryboardInstantiatable
+extension AutumnViewController: StoryboardInstantiatable
 {
     static var storyboardName: UIStoryboard.Name
     {

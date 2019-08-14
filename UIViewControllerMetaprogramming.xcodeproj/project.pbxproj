@@ -31,11 +31,10 @@
 		C7DAB00822D7BA41002F7CE1 /* AutumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DAB00722D7BA41002F7CE1 /* AutumnViewController.swift */; };
 		C7DAB00A22D7BA77002F7CE1 /* WinterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DAB00922D7BA77002F7CE1 /* WinterViewController.swift */; };
 		C7DAB00C22D7BA8C002F7CE1 /* SummerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DAB00B22D7BA8C002F7CE1 /* SummerViewController.swift */; };
-		C7DAB01322D7BCC5002F7CE1 /* StoryboardInstantitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DAB01222D7BCC5002F7CE1 /* StoryboardInstantitable.swift */; };
+		C7DAB01322D7BCC5002F7CE1 /* StoryboardInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DAB01222D7BCC5002F7CE1 /* StoryboardInstantiatable.swift */; };
 		C7DAB01622D7BD2F002F7CE1 /* UIViewController+Instantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DAB01522D7BD2F002F7CE1 /* UIViewController+Instantiate.swift */; };
 		C7DAB01922D7BD86002F7CE1 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DAB01822D7BD86002F7CE1 /* String+.swift */; };
 		C7DAB01C22D7C025002F7CE1 /* NavigationControlsAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DAB01B22D7C025002F7CE1 /* NavigationControlsAppearance.swift */; };
-		F9D720E8BA1D9B8B7F105D05 /* Pods_UIViewControllerMetaprogrammingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD435B52B04248BF37CC040 /* Pods_UIViewControllerMetaprogrammingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28B0369FD429FA5C7D48096F /* Pods-UIViewControllerMetaprogrammingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewControllerMetaprogrammingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIViewControllerMetaprogrammingTests/Pods-UIViewControllerMetaprogrammingTests.release.xcconfig"; sourceTree = "<group>"; };
-		317BB2B9D0CB77B2118C9DB2 /* Pods-UIViewControllerMetaprogrammingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewControllerMetaprogrammingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIViewControllerMetaprogrammingTests/Pods-UIViewControllerMetaprogrammingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BAAF5B85ED8FAFF0A7EC2F4 /* Pods-UIViewControllerMetaprogramming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewControllerMetaprogramming.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIViewControllerMetaprogramming/Pods-UIViewControllerMetaprogramming.debug.xcconfig"; sourceTree = "<group>"; };
 		7FD435B52B04248BF37CC040 /* Pods_UIViewControllerMetaprogrammingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIViewControllerMetaprogrammingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B976C3BA0DD5EE34099D9CA2 /* Pods_UIViewControllerMetaprogramming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIViewControllerMetaprogramming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,7 +86,7 @@
 		C7DAB00722D7BA41002F7CE1 /* AutumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutumnViewController.swift; sourceTree = "<group>"; };
 		C7DAB00922D7BA77002F7CE1 /* WinterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterViewController.swift; sourceTree = "<group>"; };
 		C7DAB00B22D7BA8C002F7CE1 /* SummerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerViewController.swift; sourceTree = "<group>"; };
-		C7DAB01222D7BCC5002F7CE1 /* StoryboardInstantitable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantitable.swift; sourceTree = "<group>"; };
+		C7DAB01222D7BCC5002F7CE1 /* StoryboardInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiatable.swift; sourceTree = "<group>"; };
 		C7DAB01522D7BD2F002F7CE1 /* UIViewController+Instantiate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Instantiate.swift"; sourceTree = "<group>"; };
 		C7DAB01822D7BD86002F7CE1 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		C7DAB01B22D7C025002F7CE1 /* NavigationControlsAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControlsAppearance.swift; sourceTree = "<group>"; };
@@ -109,7 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9D720E8BA1D9B8B7F105D05 /* Pods_UIViewControllerMetaprogrammingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +434,7 @@
 		C7DAB01422D7BD16002F7CE1 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C7DAB01222D7BCC5002F7CE1 /* StoryboardInstantitable.swift */,
+				C7DAB01222D7BCC5002F7CE1 /* StoryboardInstantiatable.swift */,
 				C7DAB01522D7BD2F002F7CE1 /* UIViewController+Instantiate.swift */,
 			);
 			path = UIViewController;
@@ -465,8 +461,6 @@
 			children = (
 				7BAAF5B85ED8FAFF0A7EC2F4 /* Pods-UIViewControllerMetaprogramming.debug.xcconfig */,
 				D67C32D09AC83A3824DEEF0E /* Pods-UIViewControllerMetaprogramming.release.xcconfig */,
-				317BB2B9D0CB77B2118C9DB2 /* Pods-UIViewControllerMetaprogrammingTests.debug.xcconfig */,
-				28B0369FD429FA5C7D48096F /* Pods-UIViewControllerMetaprogrammingTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -497,7 +491,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C70D62DB22CBFD6300D6A02D /* Build configuration list for PBXNativeTarget "UIViewControllerMetaprogrammingTests" */;
 			buildPhases = (
-				67D0AC1C74F78B6FC86C5C6C /* [CP] Check Pods Manifest.lock */,
 				C70D62CB22CBFD6300D6A02D /* Sources */,
 				C70D62CC22CBFD6300D6A02D /* Frameworks */,
 				C70D62CD22CBFD6300D6A02D /* Resources */,
@@ -573,28 +566,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		67D0AC1C74F78B6FC86C5C6C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UIViewControllerMetaprogrammingTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C783736E22DD2CD100215A4F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -659,7 +630,7 @@
 				C7DAB00C22D7BA8C002F7CE1 /* SummerViewController.swift in Sources */,
 				C79E673922E8EA6B00F769AA /* NavigationBarAppearance.swift in Sources */,
 				C788580122F0EE8A0074E66F /* UITextField+InputAccessoryView.swift in Sources */,
-				C7DAB01322D7BCC5002F7CE1 /* StoryboardInstantitable.swift in Sources */,
+				C7DAB01322D7BCC5002F7CE1 /* StoryboardInstantiatable.swift in Sources */,
 				C70D62BF22CBFD6200D6A02D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -842,7 +813,6 @@
 		};
 		C70D62DC22CBFD6300D6A02D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 317BB2B9D0CB77B2118C9DB2 /* Pods-UIViewControllerMetaprogrammingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -865,7 +835,6 @@
 		};
 		C70D62DD22CBFD6300D6A02D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28B0369FD429FA5C7D48096F /* Pods-UIViewControllerMetaprogrammingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

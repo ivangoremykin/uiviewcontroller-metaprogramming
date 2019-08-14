@@ -17,7 +17,7 @@ extension UIViewController
         return storyboard.instantiateViewController(withIdentifier: viewControllerId)
     }
     
-    static func instantiate<ViewController: StoryboardInstantitable>(_ viewControllerType: ViewController.Type) -> ViewController
+    static func instantiate<ViewController: StoryboardInstantiatable>(_ viewControllerType: ViewController.Type) -> ViewController
     {
         return instantiate(storyBoardName: ViewController.storyboardName.fileName,
                            viewControllerId: String(describing: ViewController.self)) as! ViewController

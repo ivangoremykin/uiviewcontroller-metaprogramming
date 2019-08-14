@@ -1,5 +1,5 @@
 //
-//  StoryboardInstantitable.swift
+//  StoryboardInstantiatable.swift
 //  UIViewControllerMetaprogramming
 //
 //  Created by Ivan Goremykin on 11/07/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol StoryboardInstantitable: UIViewController
+protocol StoryboardInstantiatable: UIViewController
 {
     static var storyboardName: UIStoryboard.Name { get }
 }

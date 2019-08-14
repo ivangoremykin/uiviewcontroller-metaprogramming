@@ -30,7 +30,7 @@ enum UIViewControllerInstantiationKind
 
 func getInstantiationKind(_ type: Type) -> UIViewControllerInstantiationKind
 {
-    let typeImplementsStoryboardInstantitable = type.implements["StoryboardInstantitable"] != nil
+    let typeImplementsStoryboardInstantitable = type.implements["StoryboardInstantiatable"] != nil
     let typeHasInitializeMethod = type.hasMethod(named: "initialize")
 
     if typeImplementsStoryboardInstantitable

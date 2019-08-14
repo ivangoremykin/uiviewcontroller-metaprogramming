@@ -38,8 +38,8 @@ class MainViewController: UIViewController
     fileprivate var selectedFallenLeafAmountIndex: Int = 1
 }
 
-// MARK:- StoryboardInstantitable
-extension MainViewController: StoryboardInstantitable
+// MARK:- StoryboardInstantiatable
+extension MainViewController: StoryboardInstantiatable
 {
     static var storyboardName: UIStoryboard.Name
     {

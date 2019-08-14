@@ -13,8 +13,8 @@ class WinterViewController: UIViewController
 {
 }
 
-// MARK:- StoryboardInstantitable
-extension WinterViewController: StoryboardInstantitable
+// MARK:- StoryboardInstantiatable
+extension WinterViewController: StoryboardInstantiatable
 {
     static var storyboardName: UIStoryboard.Name
     {
