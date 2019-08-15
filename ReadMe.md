@@ -3,7 +3,7 @@ Create, Push, and Present Any View Controller in 1 LOC using Metaprogramming
 
 #### A supplementary example for an [article](https://medium.com/@ivangoremykin/create-push-and-present-any-view-controller-in-1-loc-using-metaprogramming-33f673284d92)
 
-![](https://github.com/ivangoremykin/uiviewcontroller-metaprogramming/blob/media/editorial-illustration.png)
+![](https://github.com/ivangoremykin/uiviewcontroller-metaprogramming/blob/media/editorial-illustration.jpg)
 
 # Summary
 
