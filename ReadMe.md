@@ -20,8 +20,6 @@ There are 4 view controllers to illustrate all possible cases:
 <img src="https://github.com/ivangoremykin/uiviewcontroller-metaprogramming/blob/media/example-app-screenshot.png" alt="drawing" width="400"/>
 
 # Project Structure
-*Sourcery* is embedded into the *Xcode* building process as a *Run Script* phase. It automatically regenerates code on any changes in the template file or in the project source files.
-
 We try to keep ≤ 5 folders at each level of a project structure.
 ```
 Source
@@ -40,11 +38,10 @@ Meta
 Tests
 └── Resources
 ```
-The *Sourcery* configuration file is project-specific. The templates can be shared between your other projects, so you can enable/disable specific templates on a project basis.
-
-The `Source` directory contains all code: both hand-written and generated. All generated code is stored in the `Generated` folder. We do keep it under *Git* since we want to build our project even if (for any reason) code can't be generated.
-
-The `Tests` directory contains all our testing code: both hand-written and generated.
+- *Sourcery* is embedded into the *Xcode* building process as a *Run Script* phase. It automatically regenerates code on any changes in the template file or in the project source files.
+- The *Sourcery* configuration file is project-specific. The templates can be shared between your other projects, so you can enable/disable specific templates on a project basis.
+- The `Source` directory contains all code: both hand-written and generated. All generated code is stored in the `Generated` folder. We do keep it under *Git* since we want to build our project even if (for any reason) code can't be generated.
+- The `Tests` directory contains all our testing code: both hand-written and generated.
 
 # Requirements
 
