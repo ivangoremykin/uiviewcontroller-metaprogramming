@@ -319,8 +319,6 @@ private extension UINavigationBar
             self.tintColor       = tintColor
             self.barTintColor    = color
             self.backgroundColor = color
-            
-            self.isTranslucent   = color == .clear
         }
     }
     
