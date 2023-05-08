@@ -1,0 +1,9 @@
+<%- includeFile("../../Common/Common.meta.swift") %>
+<%- includeFile("../UIViewController+Common.meta.swift") %>
+<%- includeFile("UIViewController+Create.meta.swift") %>
+
+// sourcery:file:UIViewController+Create.swift
+
+<%= generateOutput() %>
+
+// sourcery:end

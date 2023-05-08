@@ -11,16 +11,16 @@ import UIKit
 /// Storyboard instantitable. Has initialization parameters.
 class AutumnViewController: UIViewController
 {
-    // MARK:- Outlets
+    // MARK: - Outlets
     @IBOutlet weak var everydayRainLabel: UILabel!
     @IBOutlet weak var leafAmountLabel:   UILabel!
     
-    // MARK:- Parameters
+    // MARK: - Parameters
     fileprivate var everydayRain: Bool!
     fileprivate var leafAmount: LeafAmount!
 }
 
-// MARK:- StoryboardInstantiatable
+// MARK: - StoryboardInstantiatable
 extension AutumnViewController: StoryboardInstantiatable
 {
     static var storyboardName: UIStoryboard.Name
@@ -29,7 +29,7 @@ extension AutumnViewController: StoryboardInstantiatable
     }
 }
 
-// MARK:- Initialization
+// MARK: - Initialization
 extension AutumnViewController
 {
     func initialize(everydayRain: Bool, leafAmount: LeafAmount)
@@ -39,7 +39,7 @@ extension AutumnViewController
     }
 }
 
-// MARK:- Lifecycle
+// MARK: - Lifecycle
 extension AutumnViewController
 {
     override func viewDidLoad()
@@ -54,7 +54,7 @@ extension AutumnViewController
 }
 
 
-// MARK:- UI Setup
+// MARK: - UI Setup
 private extension AutumnViewController
 {
     func setupUI()

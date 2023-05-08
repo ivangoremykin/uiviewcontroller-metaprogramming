@@ -13,7 +13,7 @@ class SummerViewController: UIViewController
 {
 }
 
-// MARK:- Lifecycle
+// MARK: - Lifecycle
 extension SummerViewController
 {
     override func viewDidLoad()
@@ -27,7 +27,7 @@ extension SummerViewController
     }
 }
 
-// MARK:- UI Setup
+// MARK: - UI Setup
 private extension SummerViewController
 {
     func setupUI()

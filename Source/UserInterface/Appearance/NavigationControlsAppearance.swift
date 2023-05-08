@@ -8,7 +8,7 @@
 
 import UIKit
 
-// MARK:- Navigation Controls
+// MARK: - Navigation Controls
 extension UIViewController
 {
     func setupNavigationControls(title: String, _ animated: Bool)
@@ -24,7 +24,7 @@ extension UIViewController
     }
 }
 
-// MARK:- Dismiss
+// MARK: - Dismiss
 private extension UIViewController
 {
     func setupDismissButton()
@@ -76,7 +76,7 @@ private extension UIViewController
     }
 }
 
-// MARK:- Navigation Bar
+// MARK: - Navigation Bar
 extension UIViewController
 {
     func setupNoNavigationBar(_ animated: Bool)

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -63,14 +63,19 @@
 		C70D9B3C22FE1CF80099E927 /* UIViewController+Present.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Present.swift"; sourceTree = "<group>"; };
 		C70D9B3E22FE1D0D0099E927 /* UINavigationController+Push.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Push.swift"; sourceTree = "<group>"; };
 		C725E86C22EDC60000054B35 /* LeafAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafAmount.swift; sourceTree = "<group>"; };
+		C72BD4502A08FA3F00669DB0 /* UIViewController+Common.meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Common.meta.swift"; sourceTree = "<group>"; };
+		C72BD4512A08FC0000669DB0 /* Common.meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.meta.swift; sourceTree = "<group>"; };
+		C72BD4522A08FE1600669DB0 /* UIViewController+Create.meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Create.meta.swift"; sourceTree = "<group>"; };
+		C72BD4532A0900D900669DB0 /* UIViewController+Present.meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Present.meta.swift"; sourceTree = "<group>"; };
+		C72BD4542A09018B00669DB0 /* UINavigationController+Push.meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Push.meta.swift"; sourceTree = "<group>"; };
+		C72BD4552A09047D00669DB0 /* Test+StoryboardName.meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test+StoryboardName.meta.swift"; sourceTree = "<group>"; };
+		C72BD4562A09072B00669DB0 /* Test+InstantiateUIViewController.meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test+InstantiateUIViewController.meta.swift"; sourceTree = "<group>"; };
 		C783735E22DD236900215A4F /* UIView+Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Border.swift"; sourceTree = "<group>"; };
 		C783736222DD29EB00215A4F /* Sourcery.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sourcery.yml; sourceTree = "<group>"; };
 		C783736622DD29EB00215A4F /* Test+StoryboardName.swifttemplate */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Test+StoryboardName.swifttemplate"; sourceTree = "<group>"; };
 		C783736722DD29EB00215A4F /* Test+InstantiateUIViewController.swifttemplate */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Test+InstantiateUIViewController.swifttemplate"; sourceTree = "<group>"; };
-		C783736922DD29EB00215A4F /* Common.swifttemplate */ = {isa = PBXFileReference; lastKnownFileType = text; path = Common.swifttemplate; sourceTree = "<group>"; };
 		C783736B22DD29EB00215A4F /* UINavigationController+Push.swifttemplate */ = {isa = PBXFileReference; lastKnownFileType = text; path = "UINavigationController+Push.swifttemplate"; sourceTree = "<group>"; };
 		C783736C22DD29EB00215A4F /* UIViewController+Create.swifttemplate */ = {isa = PBXFileReference; lastKnownFileType = text; path = "UIViewController+Create.swifttemplate"; sourceTree = "<group>"; };
-		C783736D22DD29EB00215A4F /* UIViewController+Common.swifttemplate */ = {isa = PBXFileReference; lastKnownFileType = text; path = "UIViewController+Common.swifttemplate"; sourceTree = "<group>"; };
 		C783737022DD2D2300215A4F /* InstantiateUIViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstantiateUIViewControllerTests.swift; sourceTree = "<group>"; };
 		C783737122DD2D2300215A4F /* StoryboardNameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardNameTests.swift; sourceTree = "<group>"; };
 		C783737522DD2D8E00215A4F /* UIViewController+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Create.swift"; sourceTree = "<group>"; };
@@ -181,6 +186,51 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		C72BD4572A09092B00669DB0 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				C72BD4522A08FE1600669DB0 /* UIViewController+Create.meta.swift */,
+				C783736C22DD29EB00215A4F /* UIViewController+Create.swifttemplate */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		C72BD4582A0909A100669DB0 /* Present */ = {
+			isa = PBXGroup;
+			children = (
+				C72BD4532A0900D900669DB0 /* UIViewController+Present.meta.swift */,
+				C70D9B3B22FE1BA90099E927 /* UIViewController+Present.swifttemplate */,
+			);
+			path = Present;
+			sourceTree = "<group>";
+		};
+		C72BD4592A0909DD00669DB0 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				C72BD4542A09018B00669DB0 /* UINavigationController+Push.meta.swift */,
+				C783736B22DD29EB00215A4F /* UINavigationController+Push.swifttemplate */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		C72BD45A2A090A3900669DB0 /* InstantiateUIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C72BD4562A09072B00669DB0 /* Test+InstantiateUIViewController.meta.swift */,
+				C783736722DD29EB00215A4F /* Test+InstantiateUIViewController.swifttemplate */,
+			);
+			path = InstantiateUIViewController;
+			sourceTree = "<group>";
+		};
+		C72BD45B2A090A4600669DB0 /* StoryboardName */ = {
+			isa = PBXGroup;
+			children = (
+				C72BD4552A09047D00669DB0 /* Test+StoryboardName.meta.swift */,
+				C783736622DD29EB00215A4F /* Test+StoryboardName.swifttemplate */,
+			);
+			path = StoryboardName;
+			sourceTree = "<group>";
+		};
 		C783735C22DD236900215A4F /* Appearance */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,8 +277,8 @@
 		C783736522DD29EB00215A4F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C783736622DD29EB00215A4F /* Test+StoryboardName.swifttemplate */,
-				C783736722DD29EB00215A4F /* Test+InstantiateUIViewController.swifttemplate */,
+				C72BD45A2A090A3900669DB0 /* InstantiateUIViewController */,
+				C72BD45B2A090A4600669DB0 /* StoryboardName */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -236,7 +286,7 @@
 		C783736822DD29EB00215A4F /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				C783736922DD29EB00215A4F /* Common.swifttemplate */,
+				C72BD4512A08FC0000669DB0 /* Common.meta.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -244,10 +294,10 @@
 		C783736A22DD29EB00215A4F /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C783736D22DD29EB00215A4F /* UIViewController+Common.swifttemplate */,
-				C783736C22DD29EB00215A4F /* UIViewController+Create.swifttemplate */,
-				C70D9B3B22FE1BA90099E927 /* UIViewController+Present.swifttemplate */,
-				C783736B22DD29EB00215A4F /* UINavigationController+Push.swifttemplate */,
+				C72BD4502A08FA3F00669DB0 /* UIViewController+Common.meta.swift */,
+				C72BD4572A09092B00669DB0 /* Create */,
+				C72BD4582A0909A100669DB0 /* Present */,
+				C72BD4592A0909DD00669DB0 /* Push */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -511,8 +561,9 @@
 		C70D62B322CBFD6200D6A02D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "Ivan Goremykin";
 				TargetAttributes = {
 					C70D62BA22CBFD6200D6A02D = {
@@ -568,6 +619,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		C783736E22DD2CD100215A4F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -681,6 +733,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -706,7 +759,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -742,6 +795,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -761,7 +815,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

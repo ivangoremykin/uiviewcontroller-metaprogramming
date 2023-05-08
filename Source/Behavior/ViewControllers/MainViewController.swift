@@ -10,7 +10,7 @@ import UIKit
 
 class MainViewController: UIViewController
 {
-    // MARK:- Outlets
+    // MARK: - Outlets
     @IBOutlet weak var presentSpringButton: UIButton!
     @IBOutlet weak var pushSpringButton:    UIButton!
     
@@ -31,14 +31,14 @@ class MainViewController: UIViewController
     @IBOutlet weak var everydayRainSwitch: UISwitch!
     @IBOutlet weak var fallenLeafAmountTextField: UITextField!
     
-    // MARK:- Views
+    // MARK: - Views
     fileprivate var fallenLeafAmountPickerView: UIPickerView!
     
-    // MARK:- State
+    // MARK: - State
     fileprivate var selectedFallenLeafAmountIndex: Int = 1
 }
 
-// MARK:- StoryboardInstantiatable
+// MARK: - StoryboardInstantiatable
 extension MainViewController: StoryboardInstantiatable
 {
     static var storyboardName: UIStoryboard.Name
@@ -47,7 +47,7 @@ extension MainViewController: StoryboardInstantiatable
     }
 }
 
-// MARK:- Constants
+// MARK: - Constants
 extension MainViewController
 {
     struct Constants
@@ -57,7 +57,7 @@ extension MainViewController
     }
 }
 
-// MARK:- Lifecycle
+// MARK: - Lifecycle
 extension MainViewController
 {
     override func viewDidLoad()
@@ -71,7 +71,7 @@ extension MainViewController
     }
 }
 
-// MARK:- UI Handlers
+// MARK: - UI Handlers
 private extension MainViewController
 {
     // MARK: Spring
@@ -119,7 +119,7 @@ private extension MainViewController
     }
 }
 
-// MARK:- UI Setup
+// MARK: - UI Setup
 private extension MainViewController
 {
     func setupUI()
@@ -180,7 +180,7 @@ private extension MainViewController
     }
 }
 
-// MARK:- UIPickerViewDataSource
+// MARK: - UIPickerViewDataSource
 extension MainViewController: UIPickerViewDataSource
 {
     func numberOfComponents(in pickerView: UIPickerView) -> Int { return 1 }
@@ -196,7 +196,7 @@ extension MainViewController: UIPickerViewDataSource
     }
 }
 
-// MARK:- UIPickerViewDelegate
+// MARK: - UIPickerViewDelegate
 extension MainViewController: UIPickerViewDelegate
 {
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int)
@@ -209,7 +209,7 @@ extension MainViewController: UIPickerViewDelegate
     }
 }
 
-// MARK:- UITextFieldDelegate
+// MARK: - UITextFieldDelegate
 extension MainViewController: UITextFieldDelegate
 {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool
@@ -220,7 +220,7 @@ extension MainViewController: UITextFieldDelegate
     }
 }
 
-// MARK:- Utils
+// MARK: - Utils
 private extension MainViewController
 {
     var buttons: [UIButton?]

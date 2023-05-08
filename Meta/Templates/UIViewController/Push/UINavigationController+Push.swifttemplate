@@ -1,0 +1,9 @@
+<%- includeFile("../../Common/Common.meta.swift") %>
+<%- includeFile("../UIViewController+Common.meta.swift") %>
+<%- includeFile("UINavigationController+Push.meta.swift") %>
+
+// sourcery:file:UINavigationController+Push.swift
+
+<%= generateOutput() %>
+
+// sourcery:end

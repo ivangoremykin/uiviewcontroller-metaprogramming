@@ -1,6 +1,5 @@
-// Generated using Sourcery 0.16.2 — https://github.com/krzysztofzablocki/Sourcery
+// Generated using Sourcery 1.8.1 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
-
 
 import XCTest
 @testable import UIViewControllerMetaprogramming
@@ -14,16 +13,16 @@ class StoryboardNameTests: XCTestCase
 
 	func testMain()
 	{
-		XCTAssertNotNil(getPath(for: .main))
+	    XCTAssertNotNil(getPath(for: .main))
 	}
 
 	func testStoryboardA()
 	{
-		XCTAssertNotNil(getPath(for: .storyboardA))
+	    XCTAssertNotNil(getPath(for: .storyboardA))
 	}
 
 	func testStoryboardB()
 	{
-		XCTAssertNotNil(getPath(for: .storyboardB))
+	    XCTAssertNotNil(getPath(for: .storyboardB))
 	}
 }

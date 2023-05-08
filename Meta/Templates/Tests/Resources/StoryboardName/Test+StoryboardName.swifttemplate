@@ -1,0 +1,8 @@
+<%- includeFile("../../../Common/Common.meta.swift") %>
+<%- includeFile("Test+StoryboardName.meta.swift") %>
+
+// sourcery:file:../../Tests/Resources/StoryboardNameTests.swift
+
+<%= generateOutput() %>
+
+// sourcery:end

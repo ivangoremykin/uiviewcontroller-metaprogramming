@@ -3,13 +3,16 @@ sources:
         - ../../Source
     exclude:
         - ../../Source/Generated
+
 templates:
-    - ../Templates/UIViewController/UIViewController+Create.swifttemplate
-    - ../Templates/UIViewController/UIViewController+Present.swifttemplate
-    - ../Templates/UIViewController/UINavigationController+Push.swifttemplate
-    - ../Templates/Tests/Resources/Test+StoryboardName.swifttemplate
-    - ../Templates/Tests/Resources/Test+InstantiateUIViewController.swifttemplate
+    - ../Templates/UIViewController/Create/UIViewController+Create.swifttemplate
+    - ../Templates/UIViewController/Present/UIViewController+Present.swifttemplate
+    - ../Templates/UIViewController/Push/UINavigationController+Push.swifttemplate
+    - ../Templates/Tests/Resources/StoryboardName/Test+StoryboardName.swifttemplate
+    - ../Templates/Tests/Resources/InstantiateUIViewController/Test+InstantiateUIViewController.swifttemplate
+
 output:
     ../../Source/Generated
+
 args:
     projectName: ${PROJECT_NAME}

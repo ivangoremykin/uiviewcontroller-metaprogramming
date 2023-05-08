@@ -13,7 +13,7 @@ class WinterViewController: UIViewController
 {
 }
 
-// MARK:- StoryboardInstantiatable
+// MARK: - StoryboardInstantiatable
 extension WinterViewController: StoryboardInstantiatable
 {
     static var storyboardName: UIStoryboard.Name
@@ -22,7 +22,7 @@ extension WinterViewController: StoryboardInstantiatable
     }
 }
 
-// MARK:- Lifecycle
+// MARK: - Lifecycle
 extension WinterViewController
 {
     override func viewWillAppear(_ animated: Bool)

@@ -97,7 +97,7 @@ extension UIViewController
     }
 }
 
-// MARK:- Title
+// MARK: - Title
 private extension UIViewController
 {
     private func setupTitle(_ titleAppearance: NavigationBarTitleAppearance)
@@ -146,7 +146,7 @@ private extension UIViewController
     }
 }
 
-// MARK:- Left Item
+// MARK: - Left Item
 private extension UIViewController
 {
     func setupLeftItem(_ leftItem: LeftNavigationBarItem, animated: Bool)
@@ -216,7 +216,7 @@ private extension UIViewController
     }
 }
 
-// MARK:- Right
+// MARK: - Right
 private extension UIViewController
 {
     func setupRightItem(_ rightItem: RightNavigationBarItem, animated: Bool)
@@ -260,7 +260,7 @@ private extension UIViewController
     }
 }
 
-// MARK:- Bar Button Items
+// MARK: - Bar Button Items
 private func createBarButtonItem(image: UIImage, color: UIColor?, target: AnyObject?, action: Selector?) -> UIBarButtonItem
 {
     let colorAdjustedImage = (color == nil) ? image.withRenderingMode(.alwaysOriginal) : image.withRenderingMode(.alwaysTemplate)
@@ -295,7 +295,7 @@ private func createBarButtonItem(view: UIView, target: AnyObject?, action: Selec
     return item
 }
 
-// MARK:- UINavigationBar
+// MARK: - UINavigationBar
 private extension UINavigationBar
 {
     func setupBackgroundAppearance(_ backgroundAppearance: NavigationBarBackgroundAppearance)

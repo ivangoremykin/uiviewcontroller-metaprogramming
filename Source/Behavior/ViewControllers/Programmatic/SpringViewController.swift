@@ -11,12 +11,12 @@ import UIKit
 /// Programmatic. Has initialization parameters.
 class SpringViewController: UIViewController
 {
-    // MARK:- Parameters
+    // MARK: - Parameters
     fileprivate var windSpeed: Float!
     fileprivate var flowerName: String!
 }
 
-// MARK:- Initialization
+// MARK: - Initialization
 extension SpringViewController
 {
     func initialize(windSpeed: Float, flowerName: String)
@@ -26,7 +26,7 @@ extension SpringViewController
     }
 }
 
-// MARK:- Constants
+// MARK: - Constants
 extension SpringViewController
 {
     struct Constants
@@ -36,7 +36,7 @@ extension SpringViewController
     }
 }
 
-// MARK:- Lifecycle
+// MARK: - Lifecycle
 extension SpringViewController
 {
     override func viewDidLoad()
@@ -50,7 +50,7 @@ extension SpringViewController
     }
 }
 
-// MARK:- UI Setup
+// MARK: - UI Setup
 private extension SpringViewController
 {
     func setupUI()
@@ -82,7 +82,7 @@ private extension SpringViewController
     }
 }
 
-// MARK:- Utils
+// MARK: - Utils
 private func createLabel(_ text: String) -> UILabel
 {
     let label = UILabel(frame: CGRect.zero)
