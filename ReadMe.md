@@ -1,14 +1,14 @@
 Create, Push, and Present Any View Controller in 1 LOC using Metaprogramming
 ======================================
 
-#### A supplementary example for an [article](https://medium.com/@ivangoremykin/create-push-and-present-any-view-controller-in-1-loc-using-metaprogramming-33f673284d92)
+#### A supplementary example for an [article](https://dev.to/ivangoremykin/create-push-and-present-any-view-controller-in-1-loc-using-metaprogramming-4o8d)
 
 ![](https://github.com/ivangoremykin/uiviewcontroller-metaprogramming/blob/media/editorial-illustration.jpg)
 
 # Summary
 
 This is an example project that uses [Sourcery](https://github.com/krzysztofzablocki/Sourcery) to generate functions that let you create, push, and present every view controller in 1 LOC.
-Please refer to the [article](https://medium.com/@ivangoremykin/create-push-and-present-any-view-controller-in-1-loc-using-metaprogramming-33f673284d92) for the details.
+Please refer to the [article](https://dev.to/ivangoremykin/create-push-and-present-any-view-controller-in-1-loc-using-metaprogramming-4o8d) for the details.
 
 There are 4 view controllers to illustrate all possible cases:
 
